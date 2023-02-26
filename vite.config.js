@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/hex-vue2022-week6/',
   plugins: [vue()],
   resolve: {
     alias: {

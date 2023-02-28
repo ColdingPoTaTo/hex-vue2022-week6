@@ -2,7 +2,7 @@
   這是購物車頁面
   <!-- 購物車列表 -->
   <div class="text-end">
-    <button class="btn btn-outline-danger" type="button" @click="deleteCarts">清空購物車</button>
+    <button class="btn btn-outline-danger" type="button" @click="deleteCarts" :disabled="cart.carts.length===0">清空購物車</button>
   </div>
   <table class="table align-middle">
     <thead>
